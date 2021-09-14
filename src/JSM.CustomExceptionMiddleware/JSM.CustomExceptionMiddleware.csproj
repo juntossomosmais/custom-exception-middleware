@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; net5.0</TargetFrameworks>
+    <LangVersion>9.0</LangVersion>
+    <Version>0.0.1</Version>
+    <Authors>Isaac Nunes Borges</Authors>
+    <Company>Juntos Somos Mais</Company>
+    <PackageProjectUrl>https://github.com/juntossomosmais/custom-exception-middleware</PackageProjectUrl>
+    <PackageTags>Middleware;Exception;CustomExceptions;Message;Error;ErrorHandling;ErrorMessages</PackageTags>
+    <PackageId>CustomExceptionMiddleware</PackageId>
+    <Description>
+      Middleware to catch custom exceptions
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
